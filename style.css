@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #52202E;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.0em;
+}
+
+#mainform {
+  margin: 0 auto;
+  padding: 25px 45px;
+  background-color: #1E3B30;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainform p {
+  flex: 1 0 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+#mainform p input {
+  flex: 0 0 600px;
+}
+
+#mainform p > label:first-child {
+  flex: 0 0 150px;
+}
+
+#mainform p span {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#mainform p span label, #mainform p span input {
+  flex: 0 0 115px;
+}
